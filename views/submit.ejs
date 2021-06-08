@@ -1,0 +1,54 @@
+<%- include('partials/header') %>
+
+<nav>
+  <div> 
+  <ul>
+    <li><a href="/contact">CONTACT</a></li>
+    <li><a href="/faqs">FAQs</a></li>
+    <li><a href="/secrets">SECRETS</a></li>
+    <li><a href="/about">ABOUT</a></li>
+    <li><a href="/">HOME</a></li>
+    <li class="log1" id="logo"><a class="" href="/login">LOGIN</a></li>
+    <li class="log1" id="logo"><a class="" href="/register">REGISTER</a></li>
+    <li class="log1" id="logo"><a class="" href="/logout">LOGOUT?</a></li>
+  </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Secrets</h1>
+    <p class="secret-text">Don't keep your secrets, share them anonymously!</p>
+
+    <form action="/submit" method="POST">
+
+      <div class="form-group">
+        <input type="text" class="form-control text-center" name="secret" placeholder="What's your secret?" autocomplete="off" required="true">
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+ 
+  
+
+  </div>
+</div>
+         <!-- Footer Section Begin -->
+         <section class="footers">
+          <div class="container">
+            
+          
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <div class="copyright-text">
+                          <p class="lead"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Footer Section End -->
+  
+<%- include('partials/footer') %>
