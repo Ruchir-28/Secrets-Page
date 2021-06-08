@@ -11,11 +11,9 @@
  GO to Google Cloud Platform, then login to the console, and in the dashboard, search projects; create new project, then on the left hand side bar, click credentials, hit save.
  Proceed as follows:
  
-
-
-
- ![Screenshot (12)](https://user-images.githubusercontent.com/67737826/121153382-a45fee80-c863-11eb-96f4-3e70b76b653d.png)
 ![Screenshot (11)_LI](https://user-images.githubusercontent.com/67737826/121153391-a5911b80-c863-11eb-9e19-b9647249c72d.jpg)
+ ![Screenshot (12)](https://user-images.githubusercontent.com/67737826/121153382-a45fee80-c863-11eb-96f4-3e70b76b653d.png)
+
 
  Step 4:
  run node app.js or nodemon app.js
