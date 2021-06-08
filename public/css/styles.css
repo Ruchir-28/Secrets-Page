@@ -1,0 +1,64 @@
+
+body {
+  background-color: #E8ECEF;
+}
+
+.centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: rgb(182, 41, 41);
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: rgb(212, 41, 41);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: yellow;
+}
+
+.aboutt{
+  background-color: rgb(83, 52, 196);
+}
+
+.l{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 13px 17px;
+  text-decoration: none;
+}
+
+.log1 a{
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: small;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+
+#logo{
+  float: left;
+}
