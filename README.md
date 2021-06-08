@@ -10,18 +10,21 @@
  Step 3:
  GO to Google Cloud Platform, then login to the console, and in the dashboard, search projects; create new project, then on the left hand side bar, click credentials, hit save.
  Proceed as follows:
- 
+
 ![Screenshot (11)_LI](https://user-images.githubusercontent.com/67737826/121153391-a5911b80-c863-11eb-9e19-b9647249c72d.jpg)
- ![Screenshot (12)](https://user-images.githubusercontent.com/67737826/121153382-a45fee80-c863-11eb-96f4-3e70b76b653d.png)
 
-
+![Screenshot (12)](https://user-images.githubusercontent.com/67737826/121153382-a45fee80-c863-11eb-96f4-3e70b76b653d.png)
+ 
  Step 4:
+ Go to https://developers.facebook.com/async/registration/ and repeat the same steps as used for google cloud console OAuth2.0 services.
+
+ Step 5:
  run node app.js or nodemon app.js
  
- Step 5:
+ Step 6:
  In the mongodb compass, or cluster, delete the index username_1 which will be created as default the first time you run the app.
  
- Step 6:
+ Step 7:
  Turn off google's less secured apps security feature  from here    https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4MQiNlMr_3fsZZDoNxolm32xpCDXcMXTgt-wtKs_dkmpkQeAMul_Y_DhTn_hgEILrRE9tIMe2Xgek4M1sUBww-MnvnFbg
 
 Done!
